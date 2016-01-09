@@ -28,6 +28,8 @@ Plugin 'https://github.com/tpope/vim-rake.git'
 Plugin 'https://github.com/tpope/vim-projectionist.git'
 Plugin 'https://github.com/docunext/closetag.vim.git'
 Plugin 'https://github.com/tmhedberg/matchit.git'
+Plugin 'elzr/vim-json'
+Plugin 'https://github.com/scrooloose/syntastic.git'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -65,3 +67,14 @@ vnoremap // y/<C-R>"<CR>"
 nnoremap <F9> V:w !bash<CR>
 vnoremap <F10> :w !bash<CR>
 colorscheme jelleybeans
+
+" syntatics settings
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+let g:syntastic_javascript_checkers = ['eslint']

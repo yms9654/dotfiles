@@ -21,3 +21,16 @@ $ make
 ## YouCompleteMe 설치
 
 https://github.com/Valloric/YouCompleteMe 참조
+
+```bash
+cd ~/.vim/bundle/YouCompleteMe
+./install.py
+```
+
+## ESLint 설치
+
+```bash
+npm install -g eslint
+npm install -g babel-eslint
+npm install -g eslint-plugin-react
+```
