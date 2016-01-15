@@ -8,3 +8,5 @@ export ARCHFLAGS='-arch x86_64'
 
 eval "$(rbenv init -)"
 export PATH="/Users/minsik/bin/Sencha/Cmd/6.0.2.14/..:$PATH"
+export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+export PS1="\W$ "
