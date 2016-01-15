@@ -66,6 +66,8 @@ nnoremap ,cd :cd %:p:h<CR>:pwd<CR>
 vnoremap // y/<C-R>"<CR>"
 nnoremap <F9> V:w !bash<CR>
 vnoremap <F10> :w !bash<CR>
+" for use E
+cabbrev E Explore 
 colorscheme jelleybeans
 
 " syntatics settings
