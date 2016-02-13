@@ -15,7 +15,6 @@ Plugin 'tpope/vim-rails'
 Plugin 'tomtom/tcomment_vim'
 Bundle "pangloss/vim-javascript"
 Plugin 'Command-T'
-Bundle 'The-NERD-tree'
 Plugin 'MatchTag'
 Plugin 'flazz/vim-colorschemes'
 Bundle 'laurentgoudet/vim-howdoi.git'
