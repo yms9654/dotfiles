@@ -68,7 +68,7 @@ nnoremap <F9> V:w !bash<CR>
 vnoremap <F10> :w !bash<CR>
 " for use E
 cabbrev E Explore 
-cabbrev Te Texplore 
+cabbrev tabE Texplore 
 colorscheme jelleybeans
 
 " syntatics settings
